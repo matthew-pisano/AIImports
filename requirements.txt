@@ -1,0 +1,3 @@
+regex==2023.12.25
+torch==2.1.2
+universalmodels @ git+https://github.com/matthew-pisano/UniversalModels

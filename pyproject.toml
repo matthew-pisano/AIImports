@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aiimports"
+version = "0.0.1"
+authors = [
+    {name = "Matthew Pisano", email = "matthewpisano14@gmail.com"},
+]
+description = "A package that eliminates import errors from python code by generating new code"
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = ["ai", "transformers", "openai", "huggingface"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Development Status :: 3 - Alpha",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+dependencies = [
+    "torch~=2.1",
+    "universalmodels @ git+https://github.com/matthew-pisano/UniversalModels"
+]
