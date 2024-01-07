@@ -30,7 +30,7 @@ Further examples can be found within the [examples/](examples) directory.
 ### Installing from Source
 
 > [!WARNING]
-> Ensure this package is installed within a virtual environment.  Even though this code does not run unless `aiimports.activate()` is called, it is still wide to isolate it to a virtual environment.
+> Ensure this package is installed within a virtual environment.  Even though this code does not run unless `aiimports.activate()` is called, it is still wise to isolate it to a virtual environment.
 
 1. Clone repository
     ```bash
